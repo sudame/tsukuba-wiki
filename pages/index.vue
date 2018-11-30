@@ -1,14 +1,9 @@
 <template>
-  <section class="container">
-  </section>
+  <section class="container"></section>
 </template>
 
 <script>
-
-export default {
-}
+export default {};
 </script>
 
-<style>
-</style>
-
+<style></style>
