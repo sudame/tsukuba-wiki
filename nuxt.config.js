@@ -13,6 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    { src: '~assets/main.scss', lang: 'scss' },
+    { src: '@fortawesome/fontawesome-free/scss/fontawesome.scss', lang: 'scss' }
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -24,7 +28,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
