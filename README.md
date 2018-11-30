@@ -1,5 +1,7 @@
 # tsukuba-wiki
 
+read [CHANGELOG.md](./CHANGELOG.md)
+
 > Nuxt.js project
 
 ## Build Setup
