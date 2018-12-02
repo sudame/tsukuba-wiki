@@ -1,5 +1,5 @@
 <template>
-  <section class="container"></section>
+  <section><nuxt-link to="/login">ログイン</nuxt-link></section>
 </template>
 
 <script>

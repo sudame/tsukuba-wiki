@@ -20,7 +20,7 @@ module.exports = {
   rules: {
     'linebreak-style': ['error', 'unix'],
     'max-len': 0,
-    indent: ['error', 2],
+    indent: ['error', 2, {"SwitchCase": 1}],
     'vue/html-indent': ['error', 2],
     "prettier/prettier": [
       "error",

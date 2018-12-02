@@ -18,6 +18,7 @@ module.exports = {
       lang: 'scss',
     },
   ],
+  plugins: ['~plugins/authState.js'],
   /*
    ** Customize the progress bar color
    */
