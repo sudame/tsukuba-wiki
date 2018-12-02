@@ -27,7 +27,8 @@ module.exports = {
       {
         semi: true,
         singleQuote: true,
-        trailingComma: "es5"
+        trailingComma: "es5",
+        htmlWhitespaceSensitivity: 'ignore'
       }
     ]
   },
