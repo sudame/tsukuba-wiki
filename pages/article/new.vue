@@ -1,7 +1,7 @@
 <template>
   <div>
-    <input type="text" v-model="content" />
     <input type="text" v-model="title" />
+    <easymde v-model="content"></easymde>
     <button @click="addArticle()">送信</button>
     <p v-if="addArticleStatus === 'success'">送信に成功しました</p>
     <p v-else-if="addArticleStatus !== null">{{ addArticleStatus }}</p>
@@ -10,8 +10,10 @@
 
 <script>
 import firebase from '../../plugins/firebase';
+import easymde from '~/components/mde.vue';
 
 export default {
+  components: { easymde },
   data() {
     return {
       title: '',
